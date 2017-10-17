@@ -4,7 +4,7 @@
   set_fact:
       openresty_version: 1.11.2.5
  
-- include: Debian.yml
+- include: Ubuntu.yml
 
 - include: install.yml
  
