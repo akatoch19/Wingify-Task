@@ -1,0 +1,8 @@
+---
+
+- name: set openresty_version
+  set_fact:
+      openresty_version: 1.11.2.5
+      
+- include: install.yml
+ 
